@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+
+
+    <!-- Primary Meta Tags -->
+<meta name="title" content="DoorDash Marketing Campaigns by AI Omole">
+<meta name="description" content="Analyzing DoorDash Marketing Campaigns with Microsoft Excel: Insights and Learnings">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://aiomole.me/projects/doordash">
+<meta property="og:title" content="DoorDash Marketing Campaigns by AI Omole">
+<meta property="og:description" content="Analyzing DoorDash Marketing Campaigns with Microsoft Excel: Insights and Learnings">
+<meta property="og:image" content="">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://aiomole.me/projects/doordash">
+<meta property="twitter:title" content="DoorDash Marketing Campaigns by AI Omole">
+<meta property="twitter:description" content="Analyzing DoorDash Marketing Campaigns with Microsoft Excel: Insights and Learnings">
+<meta property="twitter:image" content="">
+
+
+<meta name="theme-color" content="#5f2e0b">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DoorDash Marketing Campaigns | AI Omole</title>
+    <link rel="stylesheet" href="/assets/style.css" />
+    <link rel="stylesheet" href="/assets/project.css" />
+    <link
+      rel="shortcut icon"
+      href="/assets/images/favicon.webp"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="logo">
+          <a href="https://aiomole.me/">
+            <img src="/assets/images/logo.svg" alt="logo" />
+          </a>
+        </div>
+
+        <nav class="nav-menu">
+          <ul>
+            <li><a href="/projects.html">works</a></li>
+            <li><a href="/contact.html">contact</a></li>
+            <li><a class="sec-btn" href="" target="_blank">Resumé</a></li>
+          </ul>
+        </nav>
+
+        <div class="hamburger">
+          <div class="bar"></div>
+        </div>
+      </div>
+
+      <nav class="nav-mobile">
+        <ul>
+          <li><a class="nav-link2" href="/projects.html">projects</a></li>
+          <li><a class="nav-link3" href="/contact.html">contact me</a></li>
+          <li><a class="sec-btn nav-link" href="" target="_blank">Resumé</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+    <section class="project-content-hero-2">
+        <div class="hero-container">
+            <div class="left">
+                <img src="/assets/project-pictures/ddash.png" alt="doordash">
+            </div>
+
+            <div class="right">
+                <h1>
+                    DoorDash Marketing Campaigns
+                </h1>
+                <p>
+                    Analyzing DoorDash Marketing Campaigns with Microsoft Excel: Insights and Learnings
+                </p>
+
+                <div class="lang">
+                    <small>• MS Excel</small>
+                    <!-- <small>• Tableau</small>
+                              <small>• SQL</small>
+                              <small>• Power BI</small>
+                              <small>• Python</small> -->
+                  </div>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <section class="article">
+            <article>
+                <h2>
+                    Introduction
+                </h2>
+        
+                <div class="introduction">
+                    <p>
+                        I can count the number of times I have used an online food delivery service to assist with food delivery in the nearly three decades that I have lived. Well, perhaps I was not always too busy to go out and get food by myself, or I just preferred homemade meals.
+                        <br><br> Nevertheless, the rate at which people all over the world utilize these food delivery companies has increased rapidly over the years. Research says that every week, delivery or takeout is ordered by 60% of consumers in the U.S., and 31% of them use third-party delivery services at least twice a week.
+                        <br><br> In this project, I will be pretending to be a data analyst hired by DoorDash and have been challenged to:
+                    </p><br>
+
+                    <ul>
+                        <li><p>Study and understand the data</p></li>
+                        <li><p>Look out for business opportunities & insights</p></li>
+                        <li><p>Propose any data-driven action to optimize the results of the campaigns & generate value for the company.</p></li>
+                    </ul>
+                    <br>
+
+                    <p>                    
+                        The company has a goal to enhance its marketing efforts and is interested in identifying individuals who have made a purchase after being exposed to a marketing campaign. As a data analyst, that is where I come in. Ride with me!
+                    </p>
+                </div>
+            </article>
+
+            <article>
+                <h2>
+                    Data
+                </h2>
+        
+                <div class="data">
+                    <p>
+                        The dataset used in this analysis was provided by @DataAccelerator. Below is the data dictionary of our datasets with a description of the fields (columns):
+                    </p><br>
+                    
+                    <ul>
+                        <li><p><span>Income:</span> Customer’s Yearly Income</p></li>
+                        <li><p><span>MntTotal:</span> Total Amount Spent at Store by Customer</p></li>
+                        <li><p><span>Kidhome:</span> Number of Young Kids in Home</p></li>
+                        <li><p><span>Teenhome:</span> Number of Teenagers in Home</p></li>
+                        <li><p><span>Recency:</span> Number of Days Since Last Purchase</p></li>
+                        <li><p><span>MntWines:</span> Amount Spent on Purchasing Wine</p></li>
+                        <li><p><span>MntFruits:</span> Amount Spent on Purchasing Fruit</p></li>
+                        <li><p><span>MntMeatProducts:</span> Amount Spent on Purchasing Meat</p></li>
+                        <li><p><span>MntFishProducts:</span> Amount Spent on Purchasing Fish</p></li>
+                        <li><p><span>MntSweetProducts:</span> Amount Spent on Purchasing Sweet</p></li>
+                        <li><p><span>MntGoldProds:</span> Amount Spent on Purchasing Gold</p></li>
+                        <li><p><span>NumDealsPuchased:</span> Number of Purchases With Discount</p></li>
+                        <li><p><span>NumWebPurchases:</span> Number of Purchases Made Through Website</p></li>
+                        <li><p><span>NumCatalogPurchases:</span> Number of Purchases Made Through Catalogue</p></li>
+                        <li><p><span>NumStorePurchases:</span> Number of Purchases Made Through Physical Store</p></li>
+                        <li><p><span>NumWebVisitsMonth:</span> Number of Visits To Website in Last Month</p></li>
+                        <li><p><span>AcceptedCmp1:</span> Did The Customer Accept Offer in 1st Campaign</p></li>
+                        <li><p><span>AccaptedCmp2:</span> Did The Customer Accept Offer in 2nd Campaign</p></li>
+                        <li><p><span>AcceptedCmp3:</span> Did The Customer Accept Offer in 3rd Campaign</p></li>
+                        <li><p><span>AcceptedCmp4:</span> Did The Customer Accept Offer in 4th Campaign</p></li>
+                        <li><p><span>AcceptedCmp5:</span> Did The Customer Accept Offer in 5th Campaign</p></li>
+                        <li><p><span>Complain:</span> Has The Customer Complained In Last 2 Years</p></li>
+                        <li><p><span>Age:</span> Age of Cusotmer</p></li>
+                        <li><p><span>Customer_Days:</span> How Many Days Has Customer Been a Customer</p></li>
+                        <li><p><span>marital_Divorced:</span> Is Customer Divorced?</p></li>
+                        <li><p><span>marital_married:</span> Is Customer Married?</p></li>
+                        <li><p><span>marital_Single:</span> Is Customer Single?</p></li>
+                        <li><p><span>Marital_Together:</span> Is Customer Living With Someone?</p></li>
+                        <li><p><span>Marital_Widow:</span> Is Customer Divorced?</p></li>
+                        <li><p><span>education_Basic:</span> Is the customer’s highest education level high school?</p></li>
+                        <li><p><span>education_Graduation:</span> Is the customer’s highest education level undergraduate?</p></li>
+                        <li><p><span>education_Master:</span> Is the customer’s highest education level Master’s?</p></li>
+                        <li><p><span>education_PHD:</span> Is the customer’s highest education level a PhD</p></li>
+                        <li><p><span>MntRegularProds:</span> Total Amount Spent on regular products</p></li>
+                        <li><p><span>DateJoined:</span> The date the customer first became a customer</p></li>
+                    </ul>
+                </div>
+            </article>
+
+            <article>
+                <h2>
+                    Analysis
+                </h2>
+        
+                <div class="analysis">
+                    <p>
+                        I imported the data into Excel, cleaned, filtered, and sorted it to get rid of irrelevant information. After that, I did some basic statistical analysis using the functions count, countif, sum, max, min, and average to determine the data aggregation.
+                    </p><br><br>
+
+                    <div class="article-img">
+                        <img src="/assets/project-pictures/cleaned dataset in Excel.png" alt="cleaned dataset in Excel">
+                        <figcaption>cleaned dataset in Excel</figcaption>
+                    </div><br>
+
+                    <p>
+                        Some questions were to be addressed. They include:
+                    </p><br>
+
+                    <ul>
+                        <li><p>Which campaign captured the most new customers?</p></li>
+                        <li><p>From the most successful campaigns which new customers had children?</p></li>
+                        <li><p>How old is the oldest customer?</p></li>
+                        <li><p>What is the average amount spent by each customer in this segment?</p></li>
+                        <li><p>What’s the total amount spent by customers (sum of the “MntTotal” column)?</p></li>
+                        <li><p>Who is the most recently acquired customer?</p></li>
+                        <li><p>Which months had a higher number of new customers?</p></li>
+                        <li><p>Which campaign captured the most new customers?</p></li>
+                        <li><p>Which month had the highest amount of captures by campaign?</p></li>
+                        <li><p>Which product categories did age groups spend more money on?</p></li>
+                    </ul>
+                    <p>…to mention a few.</p><br><br>
+
+                    <div class="article-img">
+                        <img src="/assets/project-pictures/advertising campaign.png" alt="advertising campaign">
+                        <figcaption></figcaption>
+                    </div><br>
+
+                    <p>
+                        I also need to mention that advertising campaign #6 is successful with the audience it was aimed for. The average monthly expenditure for clients who purchased after campaign #6 is 64% greater than the spending of the typical customer, with sales jumping from $562.76 to $924.41. This represents a growth in sales of 133.3%.
+                    </p>
+                    
+                    
+                </div>
+            </article>
+
+            <article>
+                <h2>
+                    Graphs
+                </h2>
+        
+                <div class="graphs">
+                    <p>
+                        I plotted some graphs to better show the relationships between variables.
+                    </p><br><br>
+
+                    <div class="article-img">
+                        <img src="/assets/project-pictures/scatter plot showing the correlation between income vs total spent.png" alt="scatter plot showing the correlation between income vs total spent">
+                        <figcaption>scatter plot showing the correlation between income vs total spent</figcaption>
+                    </div><br>
+
+                    <p>
+                        A scatter plot was made to show how much money DoorDash customers made and how much they spent all together. Customers with more money tend to spend more on the platform, which is shown by a positive trend in the graph. But there were a few things that didn’t fit this pattern. <br>
+                        <br>The regression line was also positive, indicating that income and spending are linked. The R-squared score was 0.6774, indicating how strongly the two variables are connected. This high R-squared figure indicates that there is a strong linear link between DoorDash customers’ earnings and spending. The difference in income explains 67.75% of the variance in spending.
+                    </p>
+
+                    <hr>
+
+                    <p>
+                        To further my analysis, I plotted a histogram to group customers’ spending into different brackets. This will allow us to identify and target high-spending customers more effectively.
+                    </p><br><br>
+
+                    <div class="article-img">
+                        <img src="/assets/project-pictures/amount total histogram.png" alt="amount total histogram">
+                        <figcaption>Amount Total Histogram</figcaption>
+                    </div><br>
+                    
+                    <hr>
+                    
+                    <p>
+                        Furthermore, I developed a pivot table in order to examine the months in which new members joined the group.
+                    </p><br><br>
+                    
+                    <div class="article-img">
+                        <img src="/assets/project-pictures/average new customers each month.png" alt="average new customers each month">
+                        <figcaption>It shows that an average of 184 new customers join each month.</figcaption>
+                    </div><br>
+
+                    <hr>
+
+                    <p>
+                        Surprisingly, my analysis revealed an unconventional finding that the elderly age group of 66+ spent the most, despite being a smaller segment compared to the 36–50 and 51–65 age groups, which had higher total spending due to their larger number of consumers.
+                    </p><br><br>
+
+                    <div class="article-img">
+                        <img src="/assets/project-pictures/Spending per age group.png" alt="Spending per age group">
+                        <figcaption>Spending per age group</figcaption>
+                    </div><br>
+
+                    <p>
+                        This implies that there are untapped opportunities for targeting the elderly demographic, where even a few consumers in this age group can outspend the other age groups by almost $100. It is a compelling insight that challenges the conventional wisdom of targeting the larger, younger demographic and opens up new possibilities for businesses to explore.
+                    </p>
+                    
+                </div>
+            </article>
+            </article>
+
+            <article>
+                <h2>
+                    Recommendations
+                </h2>
+        
+                <div class="recommendations">
+                    
+                    <ul>
+                        <li><p>Door Dash should continue to target clients with high incomes.</p></li>
+                        <li><p>Intensify marketing in Nov and Dec.</p></li>
+                        <li><p>On average, customers spend around $563 per month. However, marketing campaign #6 increased this amount to around $924, with the 36–50 age group showing the most significant increase. Therefore, DoorDash should prioritize targeting this age group. Additionally, there is a considerable opportunity to target the 24- demographic more directly.</p></li>
+                    </ul>
+                    
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <section class="contact">
+      <h2>Get In Touch</h2>
+
+      <h3>
+        I'm determined to make businesses grow by transforming complicated data
+        into meaningful insights. My only question is, will it be yours?
+      </h3>
+
+      <div class="con-btn">
+        <a href="#" class="pri-btn">Contact Me</a>
+      </div>
+    </section>
+
+    <footer>
+      <small> Copyrights © Adekunle Omole 2023 </small>
+    </footer>
+  </body>
+  <script src="/assets/script.js"></script>
+</html>
