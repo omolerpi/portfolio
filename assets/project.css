@@ -50,46 +50,7 @@ html {
     border: 2px solid var(--primary);
 }
 
-/* HERO SECTION */
 
-.project-content-hero {
-  background-image: linear-gradient(to bottom, #af7e0dc7, #af7e0dc7),
-    url(/assets/project-pictures/projects-hero-bg.jpg);
-
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.airbnb {
-  background-image: linear-gradient(to bottom, #af7e0dc7, #af7e0dc7),
-    url(/assets/project-pictures/airbnb.jpg);
-
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.project-image {
-  padding: 5% 0%;
-  margin: 50px 10% 0 10%;
-
-  background-image: linear-gradient(to bottom, #0000009d, #0000009d),
-    url(/assets/project-pictures/projects-hero-bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.airbnb-pro {
-  padding: 5% 0%;
-  margin: 50px 10% 0 10%;
-
-  background-image: linear-gradient(to bottom, #0000009d, #0000009d),
-    url(/assets/project-pictures/airbnbbg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
 
 /* ARTICLE STYLING */
 article p {
@@ -139,44 +100,10 @@ hr {
   border: 1px solid var(--primary);
 }
 
-/* PROJECT IMAGE */
 
-.project-image p {
-  text-align: center;
-  color: var(--white);
-}
 
-.project-image h2 {
-  color: var(--white);
-}
-
-.pro-img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.pro-img-logo {
-  width: 7%;
-}
-
-.pro-img-logo img {
-  width: 100%;
-  aspect-ratio: 1/1;
-  object-fit: cover;
-}
-
-@media screen and (max-width: 925px) {
-  .pro-img-logo {
-    width: 10%;
-  }
-}
 
 @media screen and (max-width: 780px) {
-  .pro-img-logo {
-    width: 14%;
-  }
-
   .hero-container {
     flex-wrap: wrap;
   }
@@ -193,19 +120,3 @@ hr {
       justify-content: center;
   }
 }
-
-@media screen and (max-width: 500px) {
-  .pro-img-logo {
-    width: 17%;
-  }
-
-  .project-image {
-    margin: 50px 5% 0 5%;
-  }
-}
-
-/* @media screen and (max-width: 370px) {
-    .pro-img-logo {
-        width: 19%;
-    }
-} */
