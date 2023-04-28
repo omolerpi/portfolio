@@ -17,14 +17,7 @@ html {
 
 /* COLOR DEFINITION */
 :root {
-  /* --yello: #af7f0d;
-    --light-yellow: #a87d19;
-    --grey: #2B2B2B;
-    --light-grey: #767676;
-    --white: #ffffff; */
   --off-white: #e4e6eb;
-  /* --mes: #ffb30067; */
-
   --primary: #8b4513;
   --secondary: #efd18c;
   --bg: #5f2e0b;
@@ -95,8 +88,6 @@ figcaption a {
 
 hr {
   margin: 20px 0;
-  /* background-color: #FFB400; */
-  /* font-weight: 600; */
   border: 1px solid var(--primary);
 }
 
@@ -118,5 +109,17 @@ hr {
 
   .hero-container .right .lang {
       justify-content: center;
+  }
+}
+
+
+
+@media screen and (min-width: 1440px) {
+  body {
+    background-color: white;
+  }
+
+  section {
+    background-color: var(--off-white);
   }
 }

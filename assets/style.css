@@ -506,3 +506,24 @@ input:last-child {
     display: block;
   }
 }
+
+
+
+@media screen and (min-width: 1440px) {
+  section,
+  .header,
+  footer, .hero {
+    width: 100%;
+    max-width: 1500px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  section {
+    padding: 2% 3%;
+  }
+  .header,
+  footer {
+    padding: 10px 2%;
+  }
+}
