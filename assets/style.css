@@ -33,9 +33,10 @@ h2 {
 
 h3 {
   font-weight: 600;
-  font-size: 23px;
+  font-size: 20px;
   /* line-height: 36px; */
-  color: var(--secondary);
+  /* color: var(--secondary); */
+  color: white;
 }
 
 label,
@@ -341,7 +342,7 @@ footer small {
 }
 
 .home-project .wrapper {
-  width: 32%;
+  width: 23%;
   background-color: var(--bg);
 }
 
