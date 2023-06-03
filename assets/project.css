@@ -15,6 +15,15 @@ html {
   scroll-behavior: smooth;
 }
 
+h3 {
+  color: var(--primary);
+  margin: 8px 0 8px 0;
+}
+
+a {
+  color: var(--primary);
+}
+
 /* COLOR DEFINITION */
 :root {
   --off-white: #e4e6eb;
@@ -30,10 +39,15 @@ html {
 .hero-container {
   display: flex;
   align-items: center;
+  gap: 20px;
 }
 
 .hero-container .left {
   width: 15%;
+}
+
+.hero-container .right {
+  width: auto;
 }
 .hero-container .left img {
   width: 100%;

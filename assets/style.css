@@ -47,7 +47,7 @@ h4 {
 }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 25px;
   color: var(--primary);
 }
@@ -504,6 +504,10 @@ input:last-child {
   }
   .hamburger {
     display: block;
+  }
+
+  p {
+    font-size: 16px;
   }
 }
 
