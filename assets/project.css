@@ -106,6 +106,20 @@ hr {
   border: 1px solid var(--primary);
 }
 
+/* commenting system */
+/* .fb-comments {
+  z-index: 0;
+} */
+
+.comment {
+  text-align: center;
+  padding: 20px 5%;
+}
+
+.comment h2 {
+  color: var(--bg);
+}
+
 
 
 
